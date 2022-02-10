@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220210095327",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "jhi_order",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Order",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

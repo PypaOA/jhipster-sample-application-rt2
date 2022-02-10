@@ -1,0 +1,18 @@
+
+entity Order {
+	id Long required,
+    name String,
+    date String,
+    price String
+}
+
+entity Customer {
+	id Long required,
+    name String,
+    surName String,
+    money Integer
+}
+
+paginate Order, Customer with pagination 
+
+service all with serviceImpl
